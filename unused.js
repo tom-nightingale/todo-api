@@ -64,5 +64,3 @@ app.route('/remove/:id').get((req, res) => {
         res.send('deleted');
     });
 });
-
-module.exports = app;
